@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="952b0c2c6ed94c1380a71dfe9fd8c95c" Name="Diagram1">
+        <EntityTypeShape EntityType="TestCoreIdentityModel.LookupRole" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestCoreIdentityModel.User" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestCoreIdentityModel.UserProfile" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestCoreIdentityModel.UserRole" Width="1.5" PointX="6" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="TestCoreIdentityModel.FK__UserRole__Lookup__09746778" ManuallyRouted="false" />
+        <AssociationConnector Association="TestCoreIdentityModel.FK__UserProfi__UserI__03BB8E22" ManuallyRouted="false" />
+        <AssociationConnector Association="TestCoreIdentityModel.FK__UserRole__UserID__0A688BB1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

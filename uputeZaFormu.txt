@@ -1,0 +1,83 @@
+input
+
+1.Basic details
+	Language
+		language of titles, lyrics * 
+	Release
+		Title*
+		Version (optional)
+	Artist
+		može biti compilation ako je, onda nema sljedećeg:
+		Mora se navesti jedan po jedan artist
+		Main * - upisati koji je main
+		Mogu se dodati još iz padajućeg izbornika: Main, Featuring, Versus, Meets, Presents, With
+	Genre
+		MainGenre * odabire se između raznih žanrova
+		Subgenre vezani padajući izbornik na MainGenre
+	
+2.Tracks
+za svaku pjesmu potrebno je
+	Track details 
+		audio - waw*
+		track title*
+		version or remix name - dodatni text uz naslov (instrumental, mix)
+		ISRC* - 12 characters, identify royalty payments
+		Copyright year*
+		Copyright holder recording* - year of first copyright and the name of the person/company who owns the copyright (can be artist name)
+	Track artist
+		name of the artists exactly as written on the cover*
+		List each artist one by one: 
+		Main* - upisati ga
+		mogu se dodati još iz padajućeg izbornika: Main, Featuring, Versus, Meets, Presents, With
+	Publishers
+		Biraš koliko hoćeš publishera - company that looks after the "authors rights" - može i prazno
+			ako je pjesma cover onda moraš naći originalnog izvođača
+	Contributors
+		Biraš rolu, contributora i publishera
+		moraju biti composer i lyricist
+		i još možeš dodati Arranger i Remixer
+	Attributes
+		Cover version yes/no
+		Explicit content yes/no
+		Live version yes/no
+		Medley yes/no
+
+3.Release details
+	Label*
+		Biraš od: iM Classic(EU), iM Dance, iM Digital, iM EDM, im Electronica, iM Jazz(EU)
+		Catalogue No. - broj za label, nemora biti
+	Barcode
+		možemo ponuditi da napravimo barcode ili nek upišu postojeći
+			American UPC(12 digit), European EAN (13 digit), ne smije se koristiti prije za ništa
+	Copyright recording*
+		Copyright year*
+		Copyright holder recording*
+		
+4.Artwork
+	Artwork
+		Enter name of artist exactly as written on the cover*
+	Cover
+		Možemo ponuditi svoje cover template ili da uploadaju sami
+		Ako sami onda trebaju upisati Copyright year i description
+		Upload slike
+			Guidelines
+				Format/Size
+					JPG, at least 2000 x 2000 pixels (3000 x 3000 recommended)
+					not bigger than 9 MB
+				The artist name and release title must exactly match as they appear in the Basic details
+				Things to avoid
+					blurry images
+					website urls
+					social network simbols
+					email addresses
+					pornographic and copyrighted images
+5.Distribution
+	Select shops
+		Select shops (itunes, applemusic, shazam, deezer...) šta ćemo već nuditi
+		omogući download i streaming
+	Delivery
+		valjda kako ćemo im dostaviti to, do kada
+	Omogući youtube content id
+		valjda da se može staviti na youtube
+	Distribution regions
+		zemlje svijeta
